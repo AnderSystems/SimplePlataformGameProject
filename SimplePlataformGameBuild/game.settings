@@ -1,0 +1,32 @@
+{
+    "UserName": "Ander",
+    "UserID": 0,
+    "Video": {
+        "Resolution": {
+            "x": 1280.0,
+            "y": 720.0,
+            "z": 0.0
+        },
+        "FullscreenMode": false,
+        "Vsync": false
+    },
+    "Graphics": {
+        "settingsName": "High",
+        "IlluminationQuality": 3,
+        "TextureQuality": 3,
+        "AnisotropicFilter": 1,
+        "AntiAllasing": 1,
+        "ParticleQuality": 2,
+        "ReflectionsQuality": 2,
+        "RealTimeRef": true,
+        "ShadowsResolution": 3,
+        "ShadowsDistance": 200,
+        "LODBias": 1.399999976158142
+    },
+    "Audio": {
+        "MasterVolume": 100,
+        "UIVolume": 100,
+        "SFXVolume": 100,
+        "MusicVolume": 100
+    }
+}

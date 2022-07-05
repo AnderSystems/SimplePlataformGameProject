@@ -1,0 +1,2364 @@
+fileFormatVersion: 2
+guid: 54debbeab6778b944af29f443a65e8fc
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 8420282574336002673
+    second: Armature|Air_Fall0
+  - first:
+      74: 216718252814840821
+    second: Armature|Air_Fall1
+  - first:
+      74: -985903610178367073
+    second: Armature|Air_Landing
+  - first:
+      74: 8829334756958643007
+    second: Armature|Air_LandingB
+  - first:
+      74: -2165756781769908174
+    second: Armature|Mov_Idle
+  - first:
+      74: -5925581228500797725
+    second: Armature|Mov_SprintDiagonal
+  - first:
+      74: -442372175261932296
+    second: Armature|Mov_SprintFwd
+  - first:
+      74: -3552051943785671803
+    second: Armature|Mov_SprintStrafe
+  - first:
+      74: 7689994931627662983
+    second: Armature|Mov_WalkBwd
+  - first:
+      74: -3085884924644987208
+    second: Armature|Mov_WalkDiagonal
+  - first:
+      74: 5856895688177546447
+    second: Armature|Mov_WalkDiagonalLeft
+  - first:
+      74: 7202441856478422962
+    second: Armature|Mov_WalkFwd
+  - first:
+      74: -3891593685153874245
+    second: Armature|Mov_WalkFwd.Down
+  - first:
+      74: 8054893292718553602
+    second: Armature|Mov_WalkFwd.Up
+  - first:
+      74: -6638931976276044489
+    second: Armature|Mov_WalkLeft
+  - first:
+      74: -4568622471953308840
+    second: Armature|Mov_WalkStrafe
+  - first:
+      74: 3997623610671049391
+    second: Armature|Mov_WalkStrafeIdle
+  - first:
+      74: -3066295994583718716
+    second: Armature|Mov_WalkStrafe.2
+  - first:
+      74: 6160640501766972504
+    second: Armature|Mov_WalkDiagonal.2
+  - first:
+      74: -4065208559400697638
+    second: Armature|Mov_SprintStrafe.2
+  - first:
+      74: 2085033083526425361
+    second: Armature|Mov_SprintDiagonal.2
+  - first:
+      74: -7123838638795262796
+    second: Armature|Mov_SprintFwd.2
+  - first:
+      74: -6853671820636230193
+    second: Armature|Jump.Jump
+  - first:
+      74: -6397813690500572485
+    second: Armature|Air_Fall2
+  - first:
+      74: 8911231241086442821
+    second: Armature|Air_Fall3
+  - first:
+      74: 6846966573730284001
+    second: Armature|Air_Fall4
+  - first:
+      74: 7273852717944073928
+    second: Armature|Air_LandingC
+  - first:
+      74: -4307556714721203252
+    second: Armature|Jump.GrabOnWall
+  - first:
+      74: 1156725518355755796
+    second: Armature|Jump.Gow.Strafe
+  - first:
+      74: 5095050163919446771
+    second: Armature|Jump.GrabOnWall.Loop
+  - first:
+      74: 1353409499857791657
+    second: Armature|Jump.GrabOnWall.Loop
+  - first:
+      74: -603964011579295462
+    second: Armature|Jump.Gow.Jump.Up
+  - first:
+      74: 1980572760660089462
+    second: Armature|Jump.Gow.Jump.Up.B
+  - first:
+      74: -8506755543290971783
+    second: Armature|Mov_Push
+  - first:
+      74: -5742755648629463306
+    second: Armature|Mov_WalkStrafeD.Idle
+  - first:
+      74: -6805059355548537594
+    second: Armature|Mov_WalkStrafeD.Start
+  - first:
+      74: -5501483180495613806
+    second: Armature|Mov_WalkStrafeD
+  - first:
+      74: -6206785098127275179
+    second: Armature|Interaction.MC.Push.Fwd
+  - first:
+      74: -3120927285461889985
+    second: Armature|Interaction.MC.Push.Idle
+  - first:
+      74: -4273395880611274308
+    second: Armature|Interaction.BlendIn
+  - first:
+      74: -5550708830696143573
+    second: Armature|Jump.Gow.Jump.Up.C
+  - first:
+      74: -1587895956645810358
+    second: Armature|Jump.JumpB
+  - first:
+      74: 1790699822602389733
+    second: Armature|Jump.Gow.Start.Down
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature|Air_LandingB.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\nClip 'Armature|Air_LandingC' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.R' has translation
+      animation that will be discarded.\n\nClip 'Armature|Gow.Start.Down' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperLeg.L' has scale animation
+      that will be discarded.\n\t'Foot.L' has scale animation that will be discarded.\n\t'UpperArm.L'
+      has translation animation that will be discarded.\n\t'UpperArm.R' has translation
+      animation that will be discarded.\n\t'UpperLeg.R' has scale animation that
+      will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
+      'Armature|Jump.Gow.Jump.Up' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'UpperLeg.L' has scale animation that will be discarded.\n\t'Foot.L'
+      has scale animation that will be discarded.\n\t'UpperLeg.R' has scale animation
+      that will be discarded.\n\t'LowerLeg.R' has scale animation that will be discarded.\n\t'Foot.R'
+      has scale animation that will be discarded.\n\nClip 'Armature|Jump.Gow.Jump.Up.B'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'UpperLeg.L'
+      has scale animation that will be discarded.\n\nClip 'Armature|Jump.GrabOnWall'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'UpperLeg.L'
+      has scale animation that will be discarded.\n\t'Foot.L' has scale animation
+      that will be discarded.\n\t'UpperLeg.R' has scale animation that will be discarded.\n\t'Foot.R'
+      has scale animation that will be discarded.\n\nClip 'Armature|Jump.JumpB' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has
+      translation animation that will be discarded.\n\nClip 'Armature|Mov_SprintDiagonal'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'UpperLeg.R'
+      has scale animation that will be discarded.\n\nClip 'Armature|Mov_WalkBwd'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'UpperArm.L'
+      has translation animation that will be discarded.\n\t'UpperArm.R' has translation
+      animation that will be discarded.\n\nClip 'Armature|Mov_WalkDiagonal' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\nClip 'Armature|Mov_WalkDiagonalLeft' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\nClip 'Armature|Mov_WalkFwd' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\nClip 'Armature|Mov_WalkFwd.Down' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\nClip 'Armature|Mov_WalkFwd.Up' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\nClip 'Armature|Mov_WalkLeft' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperLeg.L' has translation
+      animation that will be discarded.\n\t'UpperArm.L' has translation animation
+      that will be discarded.\n\t'UpperArm.R' has translation animation that will
+      be discarded.\n\t'UpperLeg.R' has translation animation that will be discarded.\n\nClip
+      'Armature|Mov_WalkStrafe' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'UpperLeg.L'
+      has translation animation that will be discarded.\n\t'UpperArm.L' has translation
+      animation that will be discarded.\n\t'UpperArm.R' has translation animation
+      that will be discarded.\n\t'UpperLeg.R' has translation animation that will
+      be discarded.\n"
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Armature|Air_Fall0':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Air_Fall1':\n\tLeftUpperArm average position
+      error 8.2 mm and maximum position error 9.8 mm at time 0:18 (45.0%) Frame 18\n\tLeftLowerArm
+      average position error 8.1 mm and maximum position error 9.7 mm at time 0:18
+      (45.0%) Frame 18\n\tLeftHand average position error 8.2 mm and maximum position
+      error 9.8 mm at time 0:18 (45.0%) Frame 18\n\tRightUpperArm average position
+      error 8.4 mm and maximum position error 10.0 mm at time 1:16 (100.0%) Frame
+      40\n\tRightLowerArm average position error 8.3 mm and maximum position error
+      10.0 mm at time 1:16 (100.0%) Frame 40\n\tRightHand average position error
+      8.4 mm and maximum position error 10.0 mm at time 1:16 (100.0%) Frame 40\n\nRetargeting
+      quality report for clip 'Armature|Air_Fall2':\n\tLeftLowerArm average position
+      error 1.6 mm and maximum position error 2.6 mm at time 0:11 (52.4%) Frame 11\n\tRightLowerArm
+      average position error 1.5 mm and maximum position error 2.6 mm at time 0:16
+      (76.2%) Frame 16\n\nRetargeting quality report for clip 'Armature|Air_Landing':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Air_Landing.001':\n\tRetargeting quality
+      is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Air_LandingB':\n\tLeftUpperArm average position
+      error 1.8 mm and maximum position error 6.9 mm at time 1:11 (100.0%) Frame
+      35\n\tLeftLowerArm average position error 1.7 mm and maximum position error
+      6.8 mm at time 1:11 (100.0%) Frame 35\n\tLeftHand average position error 1.8
+      mm and maximum position error 6.9 mm at time 1:11 (100.0%) Frame 35\n\tRightUpperArm
+      average position error 3.4 mm and maximum position error 10.0 mm at time 1:11
+      (100.0%) Frame 35\n\tRightLowerArm average position error 3.8 mm and maximum
+      position error 10.0 mm at time 1:11 (100.0%) Frame 35\n\tRightHand average
+      position error 3.4 mm and maximum position error 10.0 mm at time 1:11 (100.0%)
+      Frame 35\n\nRetargeting quality report for clip 'Armature|Air_LandingB.001':\n\tLeftUpperArm
+      average position error 1.9 mm and maximum position error 6.9 mm at time 0:13
+      (100.0%) Frame 13\n\tLeftLowerArm average position error 2.0 mm and maximum
+      position error 7.5 mm at time 0:13 (100.0%) Frame 13\n\tLeftHand average position
+      error 1.9 mm and maximum position error 7.0 mm at time 0:13 (100.0%) Frame
+      13\n\tRightUpperArm average position error 2.7 mm and maximum position error
+      10.0 mm at time 0:13 (100.0%) Frame 13\n\tRightLowerArm average position error
+      2.7 mm and maximum position error 9.4 mm at time 0:13 (100.0%) Frame 13\n\tRightHand
+      average position error 2.7 mm and maximum position error 10.1 mm at time 0:13
+      (100.0%) Frame 13\n\nRetargeting quality report for clip 'Armature|Air_LandingC':\n\tRightLowerLeg
+      average position error 0.2 mm and maximum position error 1.3 mm at time 0:18
+      (90.0%) Frame 18\n\tLeftUpperArm average position error 1.9 mm and maximum
+      position error 6.9 mm at time 0:20 (100.0%) Frame 20\n\tLeftLowerArm average
+      position error 1.9 mm and maximum position error 6.8 mm at time 0:20 (100.0%)
+      Frame 20\n\tLeftHand average position error 1.9 mm and maximum position error
+      6.9 mm at time 0:20 (100.0%) Frame 20\n\tRightUpperArm average position error
+      2.8 mm and maximum position error 10.0 mm at time 0:20 (100.0%) Frame 20\n\tRightLowerArm
+      average position error 2.9 mm and maximum position error 10.0 mm at time 0:20
+      (100.0%) Frame 20\n\tRightHand average position error 2.8 mm and maximum position
+      error 10.0 mm at time 0:20 (100.0%) Frame 20\n\nRetargeting quality report
+      for clip 'Armature|Gow.Start.Down':\n\tLeftUpperArm average position error
+      0.3 mm and maximum position error 6.9 mm at time 0: 0 (0.0%) Frame 0\n\tLeftLowerArm
+      average position error 1.1 mm and maximum position error 7.3 mm at time 1:15
+      (55.7%) Frame 39\n\tLeftHand average position error 0.4 mm and maximum position
+      error 6.9 mm at time 0: 0 (0.0%) Frame 0\n\tRightUpperArm average position
+      error 0.6 mm and maximum position error 10.0 mm at time 0: 0 (0.0%) Frame 0\n\tRightLowerArm
+      average position error 3.5 mm and maximum position error 10.0 mm at time 0:
+      0 (0.0%) Frame 0\n\tRightHand average position error 0.6 mm and maximum position
+      error 10.0 mm at time 0: 0 (0.0%) Frame 0\n\nRetargeting quality report for
+      clip 'Armature|Interaction.BlendIn':\n\tLeftUpperArm average position error
+      9.8 mm and maximum position error 10.0 mm at time 10: 0 (100.0%) Frame 240\n\tLeftLowerArm
+      average position error 9.7 mm and maximum position error 10.0 mm at time 10:
+      0 (100.0%) Frame 240\n\tLeftHand average position error 9.8 mm and maximum
+      position error 10.0 mm at time 10: 0 (100.0%) Frame 240\n\tRightUpperArm average
+      position error 7.0 mm and maximum position error 10.0 mm at time 0: 0 (0.0%)
+      Frame 0\n\tRightLowerArm average position error 7.0 mm and maximum position
+      error 10.0 mm at time 0: 0 (0.0%) Frame 0\n\tRightHand average position error
+      7.1 mm and maximum position error 10.0 mm at time 0: 0 (0.0%) Frame 0\n\nRetargeting
+      quality report for clip 'Armature|Interaction.MC.Push.Fwd':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Interaction.MC.Push.Idle':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Jump.Gow.Jump.Up':\n\tLeftLowerArm average
+      position error 1.4 mm and maximum position error 7.3 mm at time 0: 0 (0.0%)
+      Frame 0\n\tRightLowerArm average position error 1.5 mm and maximum position
+      error 7.5 mm at time 0: 0 (0.0%) Frame 0\n\nRetargeting quality report for
+      clip 'Armature|Jump.Gow.Jump.Up.B':\n\tRightLowerLeg average position error
+      0.4 mm and maximum position error 3.6 mm at time 0: 5 (41.7%) Frame 5\n\tLeftLowerArm
+      average position error 1.2 mm and maximum position error 7.3 mm at time 0:
+      0 (0.0%) Frame 0\n\tRightLowerArm average position error 1.2 mm and maximum
+      position error 7.5 mm at time 0: 0 (0.0%) Frame 0\n\nRetargeting quality report
+      for clip 'Armature|Jump.Gow.Jump.Up.C':\n\tLeftUpperArm average position error
+      2.4 mm and maximum position error 6.9 mm at time 1:16 (100.0%) Frame 40\n\tLeftLowerArm
+      average position error 3.7 mm and maximum position error 7.1 mm at time 0:
+      4 (10.0%) Frame 4\n\tLeftHand average position error 2.4 mm and maximum position
+      error 6.9 mm at time 1:16 (100.0%) Frame 40\n\tRightUpperArm average position
+      error 3.5 mm and maximum position error 10.0 mm at time 1:16 (100.0%) Frame
+      40\n\tRightLowerArm average position error 4.8 mm and maximum position error
+      10.0 mm at time 1:16 (100.0%) Frame 40\n\tRightHand average position error
+      3.5 mm and maximum position error 10.0 mm at time 1:16 (100.0%) Frame 40\n\nRetargeting
+      quality report for clip 'Armature|Jump.Gow.Strafe':\n\tRetargeting quality
+      is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Jump.GrabOnWall':\n\tLeftLowerArm average
+      position error 0.5 mm and maximum position error 7.5 mm at time 0: 1 (3.8%)
+      Frame 1\n\nRetargeting quality report for clip 'Armature|Jump.Jump':\n\tLeftLowerArm
+      average position error 0.6 mm and maximum position error 2.6 mm at time 1:16
+      (100.0%) Frame 40\n\tRightLowerArm average position error 0.6 mm and maximum
+      position error 2.6 mm at time 1:16 (100.0%) Frame 40\n\nRetargeting quality
+      report for clip 'Armature|Jump.JumpB':\n\tLeftLowerLeg average position error
+      2.4 mm and maximum position error 8.3 mm at time 0:19 (47.5%) Frame 19\n\tLeftFoot
+      average position error 2.4 mm and maximum position error 8.4 mm at time 0:19
+      (47.5%) Frame 19\n\tRightLowerLeg average position error 2.6 mm and maximum
+      position error 9.2 mm at time 0:19 (47.5%) Frame 19\n\tRightFoot average position
+      error 2.6 mm and maximum position error 9.2 mm at time 0:19 (47.5%) Frame 19\n\tLeftUpperArm
+      average position error 6.1 mm and maximum position error 6.9 mm at time 1:16
+      (100.0%) Frame 40\n\tLeftLowerArm average position error 6.0 mm and maximum
+      position error 6.8 mm at time 0: 8 (20.0%) Frame 8\n\tLeftHand average position
+      error 6.1 mm and maximum position error 6.9 mm at time 1:15 (97.5%) Frame 39\n\tRightUpperArm
+      average position error 7.0 mm and maximum position error 10.0 mm at time 1:16
+      (100.0%) Frame 40\n\tRightLowerArm average position error 6.9 mm and maximum
+      position error 10.0 mm at time 1:16 (100.0%) Frame 40\n\tRightHand average
+      position error 7.0 mm and maximum position error 10.0 mm at time 1:16 (100.0%)
+      Frame 40\n\nRetargeting quality report for clip 'Armature|Mov_Idle':\n\tLeftUpperArm
+      average position error 6.9 mm and maximum position error 6.9 mm at time 1:
+      9 (13.8%) Frame 33\n\tLeftLowerArm average position error 6.8 mm and maximum
+      position error 6.9 mm at time 6: 5 (62.1%) Frame 149\n\tLeftHand average position
+      error 6.9 mm and maximum position error 6.9 mm at time 4: 6 (42.5%) Frame 102\n\tRightUpperArm
+      average position error 10.0 mm and maximum position error 10.0 mm at time 2:10
+      (24.2%) Frame 58\n\tRightLowerArm average position error 10.0 mm and maximum
+      position error 10.0 mm at time 2: 0 (20.0%) Frame 48\n\tRightHand average position
+      error 10.0 mm and maximum position error 10.0 mm at time 6: 1 (60.4%) Frame
+      145\n\nRetargeting quality report for clip 'Armature|Mov_Push':\n\tRightUpperArm
+      average position error 18.5 mm and maximum position error 18.5 mm at time 3:
+      2 (92.5%) Frame 74\n\tRightLowerArm average position error 18.5 mm and maximum
+      position error 18.6 mm at time 0:16 (20.0%) Frame 16\n\tRightHand average position
+      error 18.5 mm and maximum position error 18.5 mm at time 1:19 (53.8%) Frame
+      43\n\nRetargeting quality report for clip 'Armature|Mov_SprintDiagonal':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Mov_SprintFwd':\n\tRetargeting quality is
+      good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Mov_SprintStrafe':\n\tRetargeting quality
+      is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|Mov_WalkBwd':\n\tLeftUpperArm average position
+      error 9.6 mm and maximum position error 18.3 mm at time 1:20 (73.3%) Frame
+      44\n\tLeftLowerArm average position error 10.0 mm and maximum position error
+      18.4 mm at time 0:14 (23.3%) Frame 14\n\tLeftHand average position error 9.5
+      mm and maximum position error 18.3 mm at time 1:20 (73.3%) Frame 44\n\tRightUpperArm
+      average position error 19.8 mm and maximum position error 31.9 mm at time 1:13
+      (61.7%) Frame 37\n\tRightLowerArm average position error 21.5 mm and maximum
+      position error 32.2 mm at time 1:13 (61.7%) Frame 37\n\tRightHand average position
+      error 19.8 mm and maximum position error 31.9 mm at time 1:13 (61.7%) Frame
+      37\n\nRetargeting quality report for clip 'Armature|Mov_WalkDiagonal':\n\tLeftUpperArm
+      average position error 19.8 mm and maximum position error 31.9 mm at time 1:13
+      (61.7%) Frame 37\n\tLeftLowerArm average position error 21.5 mm and maximum
+      position error 32.2 mm at time 2: 5 (88.3%) Frame 53\n\tLeftHand average position
+      error 19.8 mm and maximum position error 31.9 mm at time 1:13 (61.7%) Frame
+      37\n\tRightUpperArm average position error 9.6 mm and maximum position error
+      18.3 mm at time 0:14 (23.3%) Frame 14\n\tRightLowerArm average position error
+      10.0 mm and maximum position error 18.4 mm at time 1:20 (73.3%) Frame 44\n\tRightHand
+      average position error 9.5 mm and maximum position error 18.3 mm at time 1:20
+      (73.3%) Frame 44\n\nRetargeting quality report for clip 'Armature|Mov_WalkDiagonalLeft':\n\tLeftUpperArm
+      average position error 9.6 mm and maximum position error 18.3 mm at time 1:20
+      (73.3%) Frame 44\n\tLeftLowerArm average position error 10.1 mm and maximum
+      position error 18.4 mm at time 1:20 (73.3%) Frame 44\n\tLeftHand average position
+      error 9.5 mm and maximum position error 18.3 mm at time 1:20 (73.3%) Frame
+      44\n\tRightUpperArm average position error 19.8 mm and maximum position error
+      31.9 mm at time 0: 7 (11.7%) Frame 7\n\tRightLowerArm average position error
+      21.9 mm and maximum position error 32.2 mm at time 0:23 (38.3%) Frame 23\n\tRightHand
+      average position error 19.8 mm and maximum position error 31.9 mm at time 0:
+      7 (11.7%) Frame 7\n\nRetargeting quality report for clip 'Armature|Mov_WalkFwd':\n\tLeftUpperArm
+      average position error 9.6 mm and maximum position error 18.3 mm at time 0:14
+      (23.3%) Frame 14\n\tLeftLowerArm average position error 10.0 mm and maximum
+      position error 18.4 mm at time 1:20 (73.3%) Frame 44\n\tLeftHand average position
+      error 9.5 mm and maximum position error 18.3 mm at time 1:20 (73.3%) Frame
+      44\n\tRightUpperArm average position error 19.8 mm and maximum position error
+      31.9 mm at time 0: 7 (11.7%) Frame 7\n\tRightLowerArm average position error
+      21.5 mm and maximum position error 32.2 mm at time 2: 5 (88.3%) Frame 53\n\tRightHand
+      average position error 19.8 mm and maximum position error 31.9 mm at time 0:
+      7 (11.7%) Frame 7\n\nRetargeting quality report for clip 'Armature|Mov_WalkFwd.Down':\n\tLeftUpperArm
+      average position error 9.5 mm and maximum position error 18.5 mm at time 1:
+      6 (75.0%) Frame 30\n\tLeftLowerArm average position error 9.7 mm and maximum
+      position error 19.4 mm at time 0:10 (25.0%) Frame 10\n\tLeftHand average position
+      error 9.5 mm and maximum position error 18.4 mm at time 0:10 (25.0%) Frame
+      10\n\tRightUpperArm average position error 9.5 mm and maximum position error
+      16.9 mm at time 1:16 (100.0%) Frame 40\n\tRightLowerArm average position error
+      9.7 mm and maximum position error 16.9 mm at time 1:16 (100.0%) Frame 40\n\tRightHand
+      average position error 9.5 mm and maximum position error 16.9 mm at time 0:
+      0 (0.0%) Frame 0\n\nRetargeting quality report for clip 'Armature|Mov_WalkFwd.Up':\n\tLeftUpperArm
+      average position error 9.6 mm and maximum position error 18.3 mm at time 0:14
+      (23.3%) Frame 14\n\tLeftLowerArm average position error 9.9 mm and maximum
+      position error 18.4 mm at time 0:15 (25.0%) Frame 15\n\tLeftHand average position
+      error 9.5 mm and maximum position error 18.3 mm at time 0:14 (23.3%) Frame
+      14\n\tRightUpperArm average position error 8.7 mm and maximum position error
+      18.5 mm at time 0: 0 (0.0%) Frame 0\n\tRightLowerArm average position error
+      9.1 mm and maximum position error 18.7 mm at time 0: 0 (0.0%) Frame 0\n\tRightHand
+      average position error 8.7 mm and maximum position error 18.5 mm at time 0:
+      0 (0.0%) Frame 0\n\nRetargeting quality report for clip 'Armature|Mov_WalkLeft':\n\tLeftLowerLeg
+      average position error 22.6 mm and maximum position error 45.4 mm at time 1:21
+      (75.0%) Frame 45\n\tLeftFoot average position error 22.6 mm and maximum position
+      error 45.4 mm at time 0:15 (25.0%) Frame 15\n\tRightLowerLeg average position
+      error 22.8 mm and maximum position error 47.4 mm at time 1:21 (75.0%) Frame
+      45\n\tRightFoot average position error 22.6 mm and maximum position error 47.2
+      mm at time 1:21 (75.0%) Frame 45\n\tLeftUpperArm average position error 9.6
+      mm and maximum position error 18.3 mm at time 0:14 (23.3%) Frame 14\n\tLeftLowerArm
+      average position error 10.1 mm and maximum position error 18.4 mm at time 1:20
+      (73.3%) Frame 44\n\tLeftHand average position error 9.5 mm and maximum position
+      error 18.3 mm at time 0:14 (23.3%) Frame 14\n\tRightUpperArm average position
+      error 19.8 mm and maximum position error 31.9 mm at time 0: 7 (11.7%) Frame
+      7\n\tRightLowerArm average position error 21.9 mm and maximum position error
+      32.2 mm at time 0:23 (38.3%) Frame 23\n\tRightHand average position error 19.8
+      mm and maximum position error 31.9 mm at time 0: 7 (11.7%) Frame 7\n\nRetargeting
+      quality report for clip 'Armature|Mov_WalkStrafe':\n\tLeftLowerLeg average
+      position error 22.6 mm and maximum position error 45.4 mm at time 1:21 (75.0%)
+      Frame 45\n\tLeftFoot average position error 22.6 mm and maximum position error
+      45.4 mm at time 0:15 (25.0%) Frame 15\n\tRightLowerLeg average position error
+      22.7 mm and maximum position error 47.4 mm at time 0:15 (25.0%) Frame 15\n\tRightFoot
+      average position error 22.6 mm and maximum position error 47.2 mm at time 0:15
+      (25.0%) Frame 15\n\tLeftUpperArm average position error 9.6 mm and maximum
+      position error 18.3 mm at time 0:14 (23.3%) Frame 14\n\tLeftLowerArm average
+      position error 10.0 mm and maximum position error 18.4 mm at time 1:21 (75.0%)
+      Frame 45\n\tLeftHand average position error 9.5 mm and maximum position error
+      18.3 mm at time 0:14 (23.3%) Frame 14\n\tRightUpperArm average position error
+      19.8 mm and maximum position error 31.9 mm at time 0: 7 (11.7%) Frame 7\n\tRightLowerArm
+      average position error 21.5 mm and maximum position error 32.2 mm at time 0:23
+      (38.3%) Frame 23\n\tRightHand average position error 19.8 mm and maximum position
+      error 31.9 mm at time 0: 7 (11.7%) Frame 7\n\nRetargeting quality report for
+      clip 'Armature|Mov_WalkStrafeD':\n\tLeftUpperArm average position error 6.9
+      mm and maximum position error 6.9 mm at time 3: 8 (100.0%) Frame 80\n\tLeftLowerArm
+      average position error 6.9 mm and maximum position error 7.0 mm at time 2:
+      8 (70.0%) Frame 56\n\tLeftHand average position error 6.9 mm and maximum position
+      error 6.9 mm at time 0:10 (12.5%) Frame 10\n\tRightUpperArm average position
+      error 10.0 mm and maximum position error 10.0 mm at time 1:17 (51.3%) Frame
+      41\n\tRightLowerArm average position error 10.0 mm and maximum position error
+      10.2 mm at time 1:15 (48.7%) Frame 39\n\tRightHand average position error 10.0
+      mm and maximum position error 10.0 mm at time 1:23 (58.8%) Frame 47\n\nRetargeting
+      quality report for clip 'Armature|Mov_WalkStrafeD.Idle':\n\tLeftUpperArm average
+      position error 6.9 mm and maximum position error 6.9 mm at time 1: 7 (15.5%)
+      Frame 31\n\tLeftLowerArm average position error 6.9 mm and maximum position
+      error 6.9 mm at time 3:17 (44.5%) Frame 89\n\tLeftHand average position error
+      6.9 mm and maximum position error 6.9 mm at time 2:23 (35.5%) Frame 71\n\tRightUpperArm
+      average position error 10.0 mm and maximum position error 10.0 mm at time 1:21
+      (22.5%) Frame 45\n\tRightLowerArm average position error 10.1 mm and maximum
+      position error 10.1 mm at time 6: 2 (73.0%) Frame 146\n\tRightHand average
+      position error 10.0 mm and maximum position error 10.0 mm at time 1:21 (22.5%)
+      Frame 45\n\nRetargeting quality report for clip 'Armature|Mov_WalkStrafeD.Start':\n\tLeftUpperArm
+      average position error 6.9 mm and maximum position error 6.9 mm at time 2:
+      7 (91.7%) Frame 55\n\tLeftLowerArm average position error 6.9 mm and maximum
+      position error 6.9 mm at time 0:12 (20.0%) Frame 12\n\tLeftHand average position
+      error 6.9 mm and maximum position error 6.9 mm at time 0: 0 (0.0%) Frame 0\n\tRightUpperArm
+      average position error 10.0 mm and maximum position error 10.0 mm at time 2:
+      0 (80.0%) Frame 48\n\tRightLowerArm average position error 10.0 mm and maximum
+      position error 10.1 mm at time 0:12 (20.0%) Frame 12\n\tRightHand average position
+      error 10.0 mm and maximum position error 10.0 mm at time 0: 5 (8.3%) Frame
+      5\n\nRetargeting quality report for clip 'Armature|Mov_WalkStrafeIdle':\n\tLeftLowerLeg
+      average position error 18.9 mm and maximum position error 18.9 mm at time 0:
+      0 (0.0%) Frame 0\n\tLeftFoot average position error 18.9 mm and maximum position
+      error 18.9 mm at time 0: 0 (0.0%) Frame 0\n\tRightLowerLeg average position
+      error 21.3 mm and maximum position error 21.3 mm at time 0: 0 (0.0%) Frame
+      0\n\tRightFoot average position error 21.3 mm and maximum position error 21.3
+      mm at time 0: 0 (0.0%) Frame 0\n\tLeftLowerArm average position error 2.6 mm
+      and maximum position error 2.6 mm at time 0: 0 (0.0%) Frame 0\n\tRightUpperArm
+      average position error 18.5 mm and maximum position error 18.5 mm at time 0:
+      0 (0.0%) Frame 0\n\tRightLowerArm average position error 18.5 mm and maximum
+      position error 18.5 mm at time 0: 0 (0.0%) Frame 0\n\tRightHand average position
+      error 18.5 mm and maximum position error 18.5 mm at time 0: 0 (0.0%) Frame
+      0\n"
+    animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Air_Fall0
+      takeName: Armature|Air_Fall0
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_Fall1
+      takeName: Armature|Air_Fall1
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_Landing
+      takeName: Armature|Air_Landing
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_LandingB
+      takeName: Armature|Air_LandingB
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_Idle
+      takeName: Armature|Mov_Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_SprintDiagonal
+      takeName: Armature|Mov_SprintDiagonal
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_SprintFwd
+      takeName: Armature|Mov_SprintFwd
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_SprintStrafe
+      takeName: Armature|Mov_SprintStrafe
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkBwd
+      takeName: Armature|Mov_WalkBwd
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkDiagonal
+      takeName: Armature|Mov_WalkDiagonal
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkDiagonalLeft
+      takeName: Armature|Mov_WalkDiagonalLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkFwd
+      takeName: Armature|Mov_WalkFwd
+      internalID: 0
+      firstFrame: 15
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkFwd.Down
+      takeName: Armature|Mov_WalkFwd.Down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkFwd.Up
+      takeName: Armature|Mov_WalkFwd.Up
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkLeft
+      takeName: Armature|Mov_WalkLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkStrafe
+      takeName: Armature|Mov_WalkStrafe
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkStrafe.2
+      takeName: Armature|Mov_WalkStrafe
+      internalID: 0
+      firstFrame: 15
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkDiagonal.2
+      takeName: Armature|Mov_WalkDiagonal
+      internalID: 0
+      firstFrame: 15
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_SprintStrafe.2
+      takeName: Armature|Mov_SprintStrafe
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_SprintDiagonal.2
+      takeName: Armature|Mov_SprintDiagonal
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_SprintFwd.2
+      takeName: Armature|Mov_SprintFwd
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.JumpB
+      takeName: Armature|Jump.JumpB
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_Fall2
+      takeName: Armature|Air_Fall2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_Fall3
+      takeName: Armature|Air_Fall2
+      internalID: 0
+      firstFrame: 12
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_Fall4
+      takeName: Armature|Air_Fall2
+      internalID: 0
+      firstFrame: 20.1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Air_LandingC
+      takeName: Armature|Air_LandingC
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.Gow.Strafe
+      takeName: Armature|Jump.Gow.Strafe
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -1.7
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.GrabOnWall.Loop
+      takeName: Armature|Jump.GrabOnWall
+      internalID: 0
+      firstFrame: 25
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -1.7
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.GrabOnWall
+      takeName: Armature|Jump.GrabOnWall
+      internalID: 0
+      firstFrame: 1.8
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -1.7
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.Gow.Jump.Up
+      takeName: Armature|Jump.Gow.Jump.Up
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -1.7
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.Gow.Jump.Up.B
+      takeName: Armature|Jump.Gow.Jump.Up.B
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -1.7
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_Push
+      takeName: Armature|Mov_Push
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkStrafeD.Idle
+      takeName: Armature|Mov_WalkStrafeD.Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 201
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkStrafeD.Start
+      takeName: Armature|Mov_WalkStrafeD.Start
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Mov_WalkStrafeD
+      takeName: Armature|Mov_WalkStrafeD
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Interaction.MC.Push.Fwd
+      takeName: Armature|Interaction.MC.Push.Fwd
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Interaction.MC.Push.Idle
+      takeName: Armature|Interaction.MC.Push.Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Interaction.BlendIn
+      takeName: Armature|Interaction.BlendIn
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.Gow.Jump.Up.C
+      takeName: Armature|Jump.Gow.Jump.Up.C
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump.Gow.Start.Down
+      takeName: Armature|Gow.Start.Down
+      internalID: 0
+      firstFrame: 4
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -1.7
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbProximal.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbIntermediate.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbDistal.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexProximal.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexIntermediate.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexDistal.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingProximal.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingIntermediate.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingDistal.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbProximal.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbIntermediate.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbDistal.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexProximal.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexIntermediate.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexDistal.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingProximal.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingIntermediate.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingDistal.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperChest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SimpleChar(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperParts
+      parentName: SimpleChar(Clone)
+      position: {x: -0, y: 1.9463261, z: 0.0037609087}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 55.601246, y: 55.601246, z: 63.150017}
+    - name: LowerParts
+      parentName: SimpleChar(Clone)
+      position: {x: -0, y: 1.9463261, z: 0.0037609087}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 55.601246, y: 55.601246, z: 63.150017}
+    - name: Foot
+      parentName: SimpleChar(Clone)
+      position: {x: -0, y: 1.9463261, z: 0.0037609087}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 55.601246, y: 55.601246, z: 63.150017}
+    - name: Hands
+      parentName: SimpleChar(Clone)
+      position: {x: -0, y: 1.9463261, z: 0.0037609087}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 55.601246, y: 55.601246, z: 63.150017}
+    - name: Armature
+      parentName: SimpleChar(Clone)
+      position: {x: -0, y: 0.951887, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 34.524006, y: 34.524006, z: 34.524006}
+    - name: Pivot
+      parentName: Armature
+      position: {x: 2.8644348e-17, y: 0.00068212143, z: -0.026009744}
+      rotation: {x: -0, y: -0, z: -1.1102226e-16, w: 1}
+      scale: {x: 0.9999999, y: 0.99999905, z: 0.99999917}
+    - name: Hips
+      parentName: Pivot
+      position: {x: -2.8492875e-17, y: -0.0006821222, z: 0.026009733}
+      rotation: {x: 0.7071068, y: 7.85046e-17, z: 7.85046e-17, w: 0.7071068}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: UpperLeg.L
+      parentName: Hips
+      position: {x: -0.0027216668, y: 0.0014232937, z: 0.00005268798}
+      rotation: {x: 0.99995863, y: -0.008863803, z: -0.00008431682, w: 0.0020396411}
+      scale: {x: 0.999538, y: 0.9999947, z: 0.9999968}
+    - name: LowerLeg.L
+      parentName: UpperLeg.L
+      position: {x: -4.4703484e-11, y: 0.01291191, z: 1.7881394e-10}
+      rotation: {x: 0.0118365, y: -0.00010695335, z: -0.008875049, w: 0.9998906}
+      scale: {x: 1.0000005, y: 1.0000042, z: 0.9999986}
+    - name: Foot.L
+      parentName: LowerLeg.L
+      position: {x: 3.352761e-11, y: 0.013444373, z: 0.000000001201406}
+      rotation: {x: -0.019887788, y: 0.75253195, z: -0.6580321, w: -0.017142566}
+      scale: {x: 1.000003, y: 1.0000007, z: 1.0000017}
+    - name: Toes.L
+      parentName: Foot.L
+      position: {x: -8.940697e-11, y: 0.0026402685, z: -0.0000000013411044}
+      rotation: {x: -0.022515267, y: 0.0007654581, z: 0.017084004, w: 0.99960023}
+      scale: {x: 1.0000077, y: 0.9999953, z: 1.0000018}
+    - name: Toes.L_end
+      parentName: Toes.L
+      position: {x: -0, y: 0.00413502, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: 6.1412823e-31, y: 0.003, z: 4.2632565e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999994, z: 0.9999994}
+    - name: Chest
+      parentName: Spine
+      position: {x: -4.032505e-27, y: 0.0062242225, z: 8.940697e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999996, z: 1.0000001}
+    - name: UpperChest
+      parentName: Chest
+      position: {x: -6.948317e-26, y: 0.0052070306, z: 3.5762787e-10}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999917}
+    - name: Neck
+      parentName: UpperChest
+      position: {x: -1.9852334e-25, y: 0.007023445, z: 0}
+      rotation: {x: -0, y: 6.617445e-24, z: -6.617445e-24, w: 1}
+      scale: {x: 0.9999998, y: 0.999999, z: 0.9999995}
+    - name: Head
+      parentName: Neck
+      position: {x: -3.57342e-25, y: 0.0023734395, z: 0.0000000021457671}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.008839849, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm.L
+      parentName: UpperChest
+      position: {x: -0.006591904, y: 0.0050328826, z: -0.00095416437}
+      rotation: {x: 0.5120988, y: -0.47873685, z: -0.517394, w: -0.4907844}
+      scale: {x: 0.9999995, y: 1.0000012, z: 1.0000008}
+    - name: LowerArm.L
+      parentName: UpperArm.L
+      position: {x: 5.8114524e-10, y: 0.008041019, z: -0.0000000012516975}
+      rotation: {x: -0.007994636, y: -0.0010702609, z: -0.03581084, w: -0.9993261}
+      scale: {x: 1.0000011, y: 0.99999845, z: 1.0000001}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: -0.0000000011622905, y: 0.009115306, z: 0.0000000014305115}
+      rotation: {x: 0.030179974, y: -0.0022750376, z: 0.017558724, w: 0.99938774}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000013}
+    - name: ThumbProximal.L
+      parentName: Hand.L
+      position: {x: -0.0011999097, y: 0.0016019066, z: -0.00011837375}
+      rotation: {x: -0.06237802, y: -0.0006686866, z: 0.28295538, w: 0.95710236}
+      scale: {x: 0.9999987, y: 1.0000023, z: 0.99999857}
+    - name: ThumbIntermediate.L
+      parentName: ThumbProximal.L
+      position: {x: -7.1525574e-10, y: 0.0013471121, z: -0.0000000014305115}
+      rotation: {x: 0.0028124147, y: -0.13684638, z: -0.025323134, w: 0.99026453}
+      scale: {x: 0.999999, y: 0.9999989, z: 1.0000013}
+    - name: ThumbDistal.L
+      parentName: ThumbIntermediate.L
+      position: {x: 8.0466267e-10, y: 0.0013458766, z: -3.5762787e-10}
+      rotation: {x: 0.009358483, y: 0.053520586, z: -0.03786413, w: 0.9978048}
+      scale: {x: 1.0000018, y: 1.0000007, z: 0.99999964}
+    - name: ThumbDistal.L_end
+      parentName: ThumbDistal.L
+      position: {x: -0, y: 0.0011811476, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IndexProximal.L
+      parentName: Hand.L
+      position: {x: -0.000494739, y: 0.003363407, z: 0.000038219332}
+      rotation: {x: -0.088672325, y: 0.0027310639, z: -0.056153066, w: 0.9944731}
+      scale: {x: 0.9999996, y: 1.0000007, z: 0.99999774}
+    - name: IndexIntermediate.L
+      parentName: IndexProximal.L
+      position: {x: -3.5762787e-10, y: 0.0010181247, z: -0.0000000014305115}
+      rotation: {x: 0.00000058114523, y: -0.00000022118908, z: 0.000000006868503, w: 1}
+      scale: {x: 1.0000002, y: 0.9999994, z: 1.0000001}
+    - name: IndexDistal.L
+      parentName: IndexIntermediate.L
+      position: {x: 8.9406965e-10, y: 0.0010181232, z: -9.611248e-10}
+      rotation: {x: 0.000000044703533, y: 0.00000008801006, z: 0.00000013713716, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 0.9999994}
+    - name: IndexDistal.L_end
+      parentName: IndexDistal.L
+      position: {x: -0, y: 0.0010181228, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingProximal.L
+      parentName: Hand.L
+      position: {x: 0.00091042614, y: 0.0031365852, z: -0.00002132839}
+      rotation: {x: 0.08546875, y: 0.00095233344, z: 0.076731384, w: -0.9933814}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.99999833}
+    - name: RingIntermediate.L
+      parentName: RingProximal.L
+      position: {x: 7.1525574e-10, y: 0.001047736, z: 0.000000002861023}
+      rotation: {x: -0.0000009611246, y: -0.000000051863008, z: -0.000000023232124, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: RingDistal.L
+      parentName: RingIntermediate.L
+      position: {x: -8.0466267e-10, y: 0.0010477328, z: -0.0000000010728836}
+      rotation: {x: -0, y: -0, z: -1.0883692e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000011, z: 1.0000004}
+    - name: RingDistal.L_end
+      parentName: RingDistal.L
+      position: {x: -0, y: 0.0010477325, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingController.L
+      parentName: Hand.L
+      position: {x: 0.0008514159, y: 0.0032036512, z: -0.000025026262}
+      rotation: {x: 0.11250469, y: -0.0003423715, z: 0.08599401, w: -0.98992306}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999774}
+    - name: RingController.L_end
+      parentName: RingController.L
+      position: {x: -0, y: 0.0035924534, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IndexController.L
+      parentName: Hand.L
+      position: {x: -0.0004614777, y: 0.003381645, z: -0.00001554948}
+      rotation: {x: -0.11249666, y: 0.007661443, z: -0.021597162, w: 0.9933879}
+      scale: {x: 1.0000004, y: 1.0000019, z: 0.9999991}
+    - name: IndexController.L_end
+      parentName: IndexController.L
+      position: {x: -0, y: 0.003592454, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ThumbController.L
+      parentName: Hand.L
+      position: {x: -0.0013008111, y: 0.0016928745, z: -0.0001800025}
+      rotation: {x: -0.09250331, y: 0.05271974, z: 0.19016905, w: 0.9759608}
+      scale: {x: 0.9999975, y: 1.0000012, z: 0.9999976}
+    - name: ThumbController.L_end
+      parentName: ThumbController.L
+      position: {x: -0, y: 0.003592456, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Item.L
+      parentName: Hand.L
+      position: {x: 0.0003329646, y: 0.0024833356, z: -0.0014030192}
+      rotation: {x: 0.16397145, y: -0.18523963, z: 0.64221084, w: 0.72551}
+      scale: {x: 0.9999955, y: 0.99999833, z: 0.9999994}
+    - name: Item.L_end
+      parentName: Item.L
+      position: {x: -0, y: 0.0337498, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm.R
+      parentName: UpperChest
+      position: {x: 0.006591904, y: 0.0050328826, z: -0.00095416437}
+      rotation: {x: 0.5120989, y: 0.4787368, z: 0.51739395, w: -0.4907843}
+      scale: {x: 0.99999994, y: 1.0000012, z: 1.0000002}
+    - name: LowerArm.R
+      parentName: UpperArm.R
+      position: {x: 7.5995926e-10, y: 0.008041019, z: 2.682209e-10}
+      rotation: {x: 0.007994696, y: -0.0010703057, z: -0.035810973, w: 0.9993261}
+      scale: {x: 1.0000008, y: 0.9999995, z: 0.9999992}
+    - name: Hand.R
+      parentName: LowerArm.R
+      position: {x: -2.682209e-10, y: 0.009115305, z: -0.0000000021457671}
+      rotation: {x: 0.030179985, y: 0.0022750662, z: -0.01755864, w: 0.9993877}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000011}
+    - name: ThumbProximal.R
+      parentName: Hand.R
+      position: {x: 0.0011999082, y: 0.0016019036, z: -0.000118374825}
+      rotation: {x: -0.062377855, y: 0.0006685565, z: -0.28295588, w: 0.9571022}
+      scale: {x: 0.9999991, y: 1.0000013, z: 0.99999946}
+    - name: ThumbIntermediate.R
+      parentName: ThumbProximal.R
+      position: {x: -7.1525574e-10, y: 0.0013471129, z: -0.0000000017881393}
+      rotation: {x: 0.0028123104, y: 0.13684644, z: 0.025323166, w: 0.9902646}
+      scale: {x: 0.99999833, y: 0.9999995, z: 1.0000008}
+    - name: ThumbDistal.R
+      parentName: ThumbIntermediate.R
+      position: {x: 0.0000000012516975, y: 0.0013458772, z: -0.0000000014305115}
+      rotation: {x: 0.009359609, y: -0.05352043, z: 0.037865225, w: 0.99780464}
+      scale: {x: 1.0000008, y: 0.99999887, z: 1.0000004}
+    - name: ThumbDistal.R_end
+      parentName: ThumbDistal.R
+      position: {x: -0, y: 0.0011811476, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IndexProximal.R
+      parentName: Hand.R
+      position: {x: 0.00049474544, y: 0.003363406, z: 0.00003821361}
+      rotation: {x: -0.08867083, y: -0.0027309966, z: 0.056152582, w: 0.9944733}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.99999857}
+    - name: IndexIntermediate.R
+      parentName: IndexProximal.R
+      position: {x: -2.2351741e-10, y: 0.0010181252, z: -0.0000000016093253}
+      rotation: {x: 0.00000056624407, y: 0.00000018626449, z: -0.00000002828892, w: 1}
+      scale: {x: 1.0000011, y: 1.0000015, z: 1.0000008}
+    - name: IndexDistal.R
+      parentName: IndexIntermediate.R
+      position: {x: 0.0000000013187527, y: 0.001018123, z: 0.0000000021904707}
+      rotation: {x: 0.000000059604638, y: -0.00000008521599, z: 0.000000030675494, w: 1}
+      scale: {x: 1.0000012, y: 1.000001, z: 1.0000012}
+    - name: IndexDistal.R_end
+      parentName: IndexDistal.R
+      position: {x: -0, y: 0.0010181228, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingProximal.R
+      parentName: Hand.R
+      position: {x: -0.000910427, y: 0.003136578, z: -0.000021331785}
+      rotation: {x: -0.08546898, y: 0.00095234206, z: 0.07673176, w: 0.9933813}
+      scale: {x: 1.0000006, y: 1.0000002, z: 0.99999905}
+    - name: RingIntermediate.R
+      parentName: RingProximal.R
+      position: {x: 9.331852e-10, y: 0.0010477357, z: 0.0000000021457671}
+      rotation: {x: -0.0000010132786, y: 0.000000046682526, z: 0.00000007018386, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000004}
+    - name: RingDistal.R
+      parentName: RingIntermediate.R
+      position: {x: 1.5925616e-10, y: 0.0010477331, z: -7.1525574e-10}
+      rotation: {x: 0.000000022351623, y: -0.000000036612693, z: 0.00000008663115, w: 1}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.0000008}
+    - name: RingDistal.R_end
+      parentName: RingDistal.R
+      position: {x: -0, y: 0.0010477325, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingController.R
+      parentName: Hand.R
+      position: {x: -0.00085141836, y: 0.003203647, z: -0.000025031091}
+      rotation: {x: -0.11250474, y: -0.00034233954, z: 0.08599398, w: 0.989923}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.99999875}
+    - name: RingController.R_end
+      parentName: RingController.R
+      position: {x: -0, y: 0.0035924534, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IndexController.R
+      parentName: Hand.R
+      position: {x: 0.00046147648, y: 0.0033816472, z: -0.00001555109}
+      rotation: {x: -0.112496786, y: -0.0076615354, z: 0.021597182, w: 0.9933878}
+      scale: {x: 1.0000006, y: 1.0000017, z: 0.99999905}
+    - name: IndexController.R_end
+      parentName: IndexController.R
+      position: {x: -0, y: 0.003592454, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ThumbController.R
+      parentName: Hand.R
+      position: {x: 0.00130081, y: 0.0016928731, z: -0.00018000662}
+      rotation: {x: -0.09250315, y: -0.052719913, z: -0.19016887, w: 0.97596085}
+      scale: {x: 0.9999978, y: 1.0000017, z: 0.9999994}
+    - name: ThumbController.R_end
+      parentName: ThumbController.R
+      position: {x: -0, y: 0.003592456, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Item.R
+      parentName: Hand.R
+      position: {x: -0.00033296485, y: 0.0024833346, z: -0.0014030229}
+      rotation: {x: 0.16397144, y: 0.1852396, z: -0.6422109, w: 0.72551006}
+      scale: {x: 0.9999993, y: 1.0000008, z: 1.0000023}
+    - name: Item.R_end
+      parentName: Item.R
+      position: {x: -0, y: 0.0337498, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg.R
+      parentName: Hips
+      position: {x: 0.0027216668, y: 0.0014232951, z: 0.000052688443}
+      rotation: {x: 0.99995863, y: 0.008863835, z: 0.0000842954, w: 0.0020396411}
+      scale: {x: 0.9995367, y: 0.9999969, z: 0.9999956}
+    - name: LowerLeg.R
+      parentName: UpperLeg.R
+      position: {x: -4.4703484e-11, y: 0.012911914, z: 1.7881394e-10}
+      rotation: {x: 0.0118365, y: 0.00010698951, z: 0.00887508, w: 0.9998906}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000018}
+    - name: Foot.R
+      parentName: LowerLeg.R
+      position: {x: 1.7881394e-10, y: 0.013444375, z: -2.682209e-10}
+      rotation: {x: 0.019887783, y: 0.7525319, z: -0.6580322, w: 0.017142577}
+      scale: {x: 1.0000014, y: 1.0000002, z: 1.000001}
+    - name: Toes.R
+      parentName: Foot.R
+      position: {x: 3.017485e-10, y: 0.0026402704, z: -2.0116567e-10}
+      rotation: {x: -0.022515444, y: -0.00076540594, z: -0.017084008, w: 0.99960023}
+      scale: {x: 1.0000091, y: 0.9999962, z: 1.0000015}
+    - name: Toes.R_end
+      parentName: Toes.R
+      position: {x: -0, y: 0.00413502, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.3
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
